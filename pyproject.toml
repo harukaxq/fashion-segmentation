@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fashion-segmentation"
+version = "0.1.0"
+description = ""
+authors = ["harukaxq <h.tamura@cibo.design>"]
+readme = "README.md"
+packages = [{include = "fashion_segmentation"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
